@@ -7,7 +7,7 @@ try{
 			branch: "${params.gitBranch}"
 	}
 	
-	stage('Maven Build'){
+	stage('Maven '){
 		sh 'mvn clean package'
 	}
 	stage('Deploy to Dev'){
